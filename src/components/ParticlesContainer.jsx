@@ -37,7 +37,7 @@ render() {
                         distance: 150,
                         enable: true,
                         opacity: 0.5,
-                        width: 1,
+                        width: 0.5,
                     },
                     collisions: {
                         enable: true,
@@ -65,7 +65,7 @@ render() {
                         value: 1,
                     },
                     },
-                    detectRetina: true,
+                    detectRetina: false,
                 }}
             />
         )
