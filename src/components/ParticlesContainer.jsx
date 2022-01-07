@@ -12,7 +12,7 @@ render() {
                         value: "000000",
                     },
                     },
-                    fpsLimit: 60,
+                    fpsLimit: 30,
                     interactivity: {
                     events: {
                         onClick: {
@@ -55,7 +55,7 @@ render() {
                         value: 1,
                     },
                     },
-                    detectRetina: false,
+                    detectRetina: true,
                 }}
             />
         )

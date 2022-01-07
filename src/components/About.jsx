@@ -9,7 +9,6 @@ export default class About extends Component {
             <div className='desc'>
                 I'm an undergrad at Yale studying Computer Science and Statistics. 
                 My interests broadly lie at the intersection of machine learning, data science, and software development.
-                {/* In the past, I've worked roles in deep learning for drug discovery, frontend engineering, and machine learning applications to biology. */}
             </div>
             <div style={{marginTop: '15px'}}>
                 <a 
