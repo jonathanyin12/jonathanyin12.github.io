@@ -8,10 +8,6 @@
   overflow: hidden;
 }
 
-.particles {
-  z-index: -1;
-}
-
 .about-me {
   background-color: rgba(255, 255, 255, 0.8);
   color: #000000;
@@ -24,6 +20,7 @@
   align-items: center;
   border-radius: 4px;
   line-height: 2;
+  z-index: 1;
 }
 
 .headshot {

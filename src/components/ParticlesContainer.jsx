@@ -5,7 +5,6 @@ class ParticlesContainer extends Component {
   render() {
     return (
       <Particles
-        className="particles"
         options={{
           background: {
             color: {
