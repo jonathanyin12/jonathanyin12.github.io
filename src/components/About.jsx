@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Social from "./Social";
 
 class About extends Component {
   render() {
@@ -22,29 +23,7 @@ class About extends Component {
             Résumé
           </a>
         </div>
-        <div className="social">
-          <a
-            href="https://www.linkedin.com/in/jonathan-yin/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fa fa-linkedin" />
-          </a>
-          <a
-            href="https://github.com/jonathanyin12"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fa fa-github" />
-          </a>
-          <a
-            href="mailto:jonathan.yin@yale.edu"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i className="fa fa-envelope" />
-          </a>
-        </div>
+        <Social />
       </div>
     );
   }
